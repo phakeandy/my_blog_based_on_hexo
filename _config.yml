@@ -114,3 +114,10 @@ symbols_count_time:
     awl: 2
     wpm: 275
     suffix: "mins."
+
+# search powered by hexo-generator-searchdb
+search:
+    path: search.xml
+    field: post
+    content: true
+    format: html
