@@ -151,8 +151,8 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-    #GitHub: https://github.com/yourname || fab fa-github
-    #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+    GitHub: https://github.com/phakeandy || fab fa-github
+    E-Mail: mailto:whota0@163.com || fa fa-envelope
     #Weibo: https://weibo.com/yourname || fab fa-weibo
     #Twitter: https://twitter.com/yourname || fab fa-twitter
     #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -174,6 +174,7 @@ links_settings:
 
 links:
     #Title: https://example.com
+    Github: https://github.com/phakeandy/my_blog_based_on_hexo
 
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
@@ -252,7 +253,7 @@ post_meta:
 # Dependencies: https://github.com/next-theme/hexo-word-counter
 symbols_count_time:
     separated_meta: true
-    item_text_total: false
+    item_text_total: true
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: false
@@ -379,7 +380,7 @@ back2top:
 
 # Reading progress bar
 reading_progress:
-    enable: false
+    enable: true
     # Available values: left | right
     start_at: left
     # Available values: top | bottom
@@ -399,8 +400,8 @@ bookmark:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-    enable: false
-    permalink: https://github.com/yourname
+    enable: true
+    permalink: https://github.com/phakeandy
 
 # ---------------------------------------------------------------
 # Font Settings
@@ -820,7 +821,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # For more information: http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
-    enable: false
+    enable: true
     total_visitors: true
     total_visitors_icon: fa fa-user
     total_views: true
