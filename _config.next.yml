@@ -36,10 +36,10 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Muse
-#scheme: Mist
+# scheme: Muse
+scheme: Mist
 # scheme: Pisces
-scheme: Gemini
+# scheme: Gemini
 
 # Dark Mode
 darkmode: true
@@ -98,8 +98,8 @@ menu:
     tags: /tags/ || fa fa-tags
     categories: /categories/ || fa fa-th
     archives: /archives/ || fa fa-archive
-    schedule: /schedule/ || fa fa-calendar
-    sitemap: /sitemap.xml || fa fa-sitemap
+    # schedule: /schedule/ || fa fa-calendar
+    # sitemap: /sitemap.xml || fa fa-sitemap
     # commonweal: /404/ || fa fa-heartbeat
 
 # Enable / Disable menu icons / item badges.
@@ -215,7 +215,7 @@ footer:
     copyright:
 
     # Powered by Hexo & NexT
-    powered: true
+    powered: false
 
     # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, https://beian.mps.gov.cn
     beian:
@@ -613,7 +613,7 @@ quicklink:
 # For more information: https://animate.style
 motion:
     enable: true
-    async: false
+    async: true
     transition:
         # All available transition variants: https://theme-next.js.org/animate/
         menu_item: fadeInDown

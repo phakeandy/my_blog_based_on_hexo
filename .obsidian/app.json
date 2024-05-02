@@ -1,0 +1,8 @@
+{
+  "showUnsupportedFiles": false,
+  "userIgnoreFilters": [
+    "node_modules/",
+    "themes/"
+  ],
+  "attachmentFolderPath": "source/images"
+}
