@@ -4,5 +4,8 @@
     "node_modules/",
     "themes/"
   ],
-  "attachmentFolderPath": "source/images"
+  "attachmentFolderPath": "source/images",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative"
 }

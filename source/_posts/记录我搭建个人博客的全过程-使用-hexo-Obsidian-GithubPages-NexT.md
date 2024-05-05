@@ -15,6 +15,8 @@ date: 2024-05-02 00:02:28
 <!-- more -->
 观前提示：笔者也是边试错边写笔记，疏漏在所难免。如果绕了弯路，还望读者不吝赐教。
 我的博客: [andy's blog](https://phakeandy.github.io/)
+最终效果图：
+![[source/images/记录我搭建个人博客的全过程-使用-hexo-Obsidian-GithubPages-NexT-1.png]]
 
 ---
 
@@ -223,7 +225,14 @@ search:
 
 ### 通过 `custom file` 添加鼠标爆炸效果
 
-[官方文档](https://theme-next.js.org)
+![[记录我搭建个人博客的全过程-使用-hexo-Obsidian-GithubPages-NexT.png]]
+
+网上有不少让直接修改 nexT 主题的源代码以实现效果的
+但正如之前所述: 这样==不利于后续版本升级==，会造成版本合并冲突
+
+hexo 官方实际上提供了类似的接口 [官方文档](https://theme-next.js.org/docs/advanced-settings/custom-files)
+
+下面是详细步骤:
 
 在 next 的配置文件里打开 `bodyEnd: source/_data/body-end.njk`
 ```yml
@@ -254,4 +263,20 @@ custom_file_path:
 ```
 即可
 
+## 部署到 GithubPage 
+
+最后当然是把我们的blog部署到GithubPage 
+
+这点官方文档说的很清楚了: [官方文档](https://hexo.io/docs/github-pages)
+照着操作就是了
+
+---
+
+## 结语
+
+这是笔者系列笔记 [记录我搭建个人博客的全过程] 的第一篇。
+这一篇里我们完成了博客的搭建，美化和部署。
+下一篇里我们将改善博客糟糕的编辑体验，对obsidian进行深入个性化设置，敬请期待。
+笔者今年大一，不懂的地方还有很多，
+文章有什么不如意的地方还望读者海涵。
 
